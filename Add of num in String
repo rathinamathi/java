@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+
+
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String str1 ="123";
+        String str2 ="456";
+        int len1=0;
+        int len2=0;
+        for(char i:str1.toCharArray()){
+            len1++;
+        }
+        for(char i:str2.toCharArray()){
+            len2++;
+        }
+        int num1 = Integer.parseInt(str1);
+        int num2 = Integer.parseInt(str2);
+        String res = (num1+num2)+""; 
+       System.out.print(res);
+        
+    }
+}
+
